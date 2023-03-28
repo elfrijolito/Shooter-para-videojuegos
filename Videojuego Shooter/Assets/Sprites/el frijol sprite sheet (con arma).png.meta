@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 718d5fe5624833241822a0ac9cb77511
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: el frijol sprite sheet (con arma)_0
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 5395
+        width: 1115
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5800679859578e646afeb15145081540
+      internalID: -171532370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el frijol sprite sheet (con arma)_1
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 5395
+        width: 1110
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8b9857a6148e14db18d539cd5c7659
+      internalID: -1130394708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el frijol sprite sheet (con arma)_2
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 5395
+        width: 1115
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5e92c946a740946b5d974ed9799566
+      internalID: -2018667835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el frijol sprite sheet (con arma)_3
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 5395
+        width: 1164
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150afe9430c5acc4889391e67533b1f1
+      internalID: -1873500063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el frijol sprite sheet (con arma)_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 3572
+        width: 1103
+        height: 1053
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7396b77fc45718448ca23a2bb991004
+      internalID: -1868032173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el frijol sprite sheet (con arma)_29
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 296
+        width: 1152
+        height: 1053
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc963ac0749da574ba1852614fcb35f7
+      internalID: 320626215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      el frijol sprite sheet (con arma)_27: -1247232972
+      el frijol sprite sheet (con arma)_33: -2097555530
+      el frijol sprite sheet (con arma)_17: -40732926
+      el frijol sprite sheet (con arma)_23: -2127788030
+      el frijol sprite sheet (con arma)_29: 320626215
+      el frijol sprite sheet (con arma)_4: -1429012093
+      el frijol sprite sheet (con arma)_9: 1854836090
+      el frijol sprite sheet (con arma)_24: 1998540790
+      el frijol sprite sheet (con arma)_16: -1448072043
+      el frijol sprite sheet (con arma)_26: -1730196212
+      el frijol sprite sheet (con arma)_20: 230384888
+      el frijol sprite sheet (con arma)_1: -1130394708
+      el frijol sprite sheet (con arma)_3: -1873500063
+      el frijol sprite sheet (con arma)_28: -1697033310
+      el frijol sprite sheet (con arma)_21: -1414362004
+      el frijol sprite sheet (con arma)_10: -1488191006
+      el frijol sprite sheet (con arma)_30: -1913566850
+      el frijol sprite sheet (con arma)_22: -1001053063
+      el frijol sprite sheet (con arma)_2: -2018667835
+      el frijol sprite sheet (con arma)_34: -1272185532
+      el frijol sprite sheet (con arma)_31: 1443556210
+      el frijol sprite sheet (con arma)_18: 1776469366
+      el frijol sprite sheet (con arma)_14: -494755871
+      el frijol sprite sheet (con arma)_35: -175661112
+      el frijol sprite sheet (con arma)_8: -1868032173
+      el frijol sprite sheet (con arma)_19: 935720565
+      el frijol sprite sheet (con arma)_25: 2137013852
+      el frijol sprite sheet (con arma)_15: 1234750462
+      el frijol sprite sheet (con arma)_0: -171532370
+      el frijol sprite sheet (con arma)_7: 91800227
+      el frijol sprite sheet (con arma)_6: -248128129
+      el frijol sprite sheet (con arma)_5: 1030624134
+      el frijol sprite sheet (con arma)_11: 1707704047
+      el frijol sprite sheet (con arma)_12: 590796972
+      el frijol sprite sheet (con arma)_32: 1670349074
+      el frijol sprite sheet (con arma)_13: 894107137
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
