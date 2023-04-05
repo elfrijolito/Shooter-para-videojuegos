@@ -21,15 +21,15 @@ public class OsitoMove : MonoBehaviour
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Horizontal < 0.0f) transform.localScale = new Vector3(-0.25f, 0.25f, 0.25f);
-        else if (Horizontal > 0.0f) transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
+        if (Horizontal < 0.0f) transform.localScale = new Vector3(-0.018f, 0.018f, 0.018f);
+        else if (Horizontal > 0.0f) transform.localScale = new Vector3(0.018f, 0.018f, 0.018f);
 
         Animator.SetBool("Running", Horizontal != 0.0f);
         Animator.SetBool("Grounded", Grounded);
 
-        Debug.DrawRay(transform.position, Vector3.down * 1.5f, Color.red);
+        Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
 
-        if(Physics2D.Raycast(transform.position, Vector3.down, 1.5f))
+        if(Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
         {
             Grounded = true;
         }
