@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 5f93c6d9b2f443546b17bc3ca44a544d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemigo sprite sheet (con arma)_0
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 5395
+        width: 1115
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7989d3a9e2728024984663c34063fdbe
+      internalID: -254894676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo sprite sheet (con arma)_1
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 5396
+        width: 1109
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78910b3f446f3024798e3c1da402fb5d
+      internalID: -2001976066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo sprite sheet (con arma)_2
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 5395
+        width: 1115
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d0e7fa0f59c14084b09bce119271f
+      internalID: 1260523315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo sprite sheet (con arma)_3
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 5394
+        width: 1164
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ade5ee029fc59540aaa0def458b8f29
+      internalID: 637987433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemigo sprite sheet (con arma)_13: 507298655
+      enemigo sprite sheet (con arma)_28: -356830
+      enemigo sprite sheet (con arma)_27: 1214698986
+      enemigo sprite sheet (con arma)_34: 1531383211
+      enemigo sprite sheet (con arma)_25: 1824449618
+      enemigo sprite sheet (con arma)_10: -1960237241
+      enemigo sprite sheet (con arma)_21: -738022832
+      enemigo sprite sheet (con arma)_14: -594590479
+      enemigo sprite sheet (con arma)_29: -1654211940
+      enemigo sprite sheet (con arma)_3: 637987433
+      enemigo sprite sheet (con arma)_1: -2001976066
+      enemigo sprite sheet (con arma)_2: 1260523315
+      enemigo sprite sheet (con arma)_35: -285460292
+      enemigo sprite sheet (con arma)_15: -338138969
+      enemigo sprite sheet (con arma)_19: -306617310
+      enemigo sprite sheet (con arma)_12: 1629253225
+      enemigo sprite sheet (con arma)_6: 1573586897
+      enemigo sprite sheet (con arma)_33: -533728218
+      enemigo sprite sheet (con arma)_30: -1505356067
+      enemigo sprite sheet (con arma)_17: -1694820832
+      enemigo sprite sheet (con arma)_22: -944950589
+      enemigo sprite sheet (con arma)_0: -254894676
+      enemigo sprite sheet (con arma)_31: -1284368132
+      enemigo sprite sheet (con arma)_20: 245575386
+      enemigo sprite sheet (con arma)_7: 726657736
+      enemigo sprite sheet (con arma)_24: -1366192650
+      enemigo sprite sheet (con arma)_23: -614486776
+      enemigo sprite sheet (con arma)_32: -1204641859
+      enemigo sprite sheet (con arma)_11: -1362168149
+      enemigo sprite sheet (con arma)_4: 1000921845
+      enemigo sprite sheet (con arma)_18: 305778139
+      enemigo sprite sheet (con arma)_16: -776598684
+      enemigo sprite sheet (con arma)_9: -1174150491
+      enemigo sprite sheet (con arma)_5: 377124865
+      enemigo sprite sheet (con arma)_8: 827635918
+      enemigo sprite sheet (con arma)_26: -826900776
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class OsitoMove : MonoBehaviour
 {
+    public GameObject BulletPrefab;
+    public GameObject point;
+    private float LastShoot;
     public float Speed;
     public float JumpForce;
     private Rigidbody2D Rigidbody2D;
@@ -41,12 +44,27 @@ public class OsitoMove : MonoBehaviour
             Jump();
         }
 
-    }
+        if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.30f)
+        {
+            Shoot();
+            LastShoot = Time.time;
+        }
 
+    }
 
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
+    }
+
+    private void Shoot()
+    {
+        Vector3 direction;
+        if (transform.localScale.x == 0.018f) direction = Vector3.right;
+        else direction = Vector3.left;
+
+        GameObject bullet = Instantiate(BulletPrefab, point.transform.position, Quaternion.identity);
+        bullet.GetComponent<BulletScript>().SetDirection(direction);
     }
 
     private void FixedUpdate() 
