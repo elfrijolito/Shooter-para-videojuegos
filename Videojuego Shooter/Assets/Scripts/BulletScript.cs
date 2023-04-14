@@ -46,6 +46,19 @@ public class BulletScript : MonoBehaviour
             Instantiate(efectoImpacto, transform.position, Quaternion.identity);
         }
 
+        OsoMalo osoMalo = collision.GetComponent<OsoMalo>();
+        OsoMaloMove osoMaloMove = collision.GetComponent<OsoMaloMove>();
+
+        if (osoMalo != null)
+        {
+            osoMalo.Hit();
+        }
+
+        if (osoMaloMove != null)
+        {
+            osoMaloMove.Hit();
+        }
+
         DestroyBullet();
     }
 

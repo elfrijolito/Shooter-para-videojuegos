@@ -8,6 +8,7 @@ public class OsoMalo : MonoBehaviour
     public GameObject BulletPrefab;
     public GameObject point;
     private float LastShoot;
+    private int Health = 3;
 
     void Update()
     {
@@ -32,5 +33,14 @@ public class OsoMalo : MonoBehaviour
 
         GameObject bullet = Instantiate(BulletPrefab, point.transform.position, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
+    }
+
+    public void Hit()
+    {
+        Health = Health -1;
+        if (Health == 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
