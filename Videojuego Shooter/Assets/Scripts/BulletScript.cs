@@ -46,8 +46,14 @@ public class BulletScript : MonoBehaviour
             Instantiate(efectoImpacto, transform.position, Quaternion.identity);
         }
 
+        if (collision.tag == "Roboto")
+        {
+            Instantiate(efectoImpacto, transform.position, Quaternion.identity);
+        }
+
         OsoMalo osoMalo = collision.GetComponent<OsoMalo>();
         OsoMaloMove osoMaloMove = collision.GetComponent<OsoMaloMove>();
+        Roboto roboto = collision.GetComponent<Roboto>();
 
         if (osoMalo != null)
         {
@@ -57,6 +63,11 @@ public class BulletScript : MonoBehaviour
         if (osoMaloMove != null)
         {
             osoMaloMove.Hit();
+        }
+
+        if (roboto != null)
+        {
+            roboto.Hit();
         }
 
         DestroyBullet();

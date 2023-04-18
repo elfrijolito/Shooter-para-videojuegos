@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class OsoMalo : MonoBehaviour
 {
+    [SerializeField] private GameObject efectoMuerte;
     public GameObject Osito;
     public GameObject BulletPrefab;
     public GameObject point;
+    public GameObject point2;
     private float LastShoot;
     private int Health = 3;
 
@@ -40,7 +42,18 @@ public class OsoMalo : MonoBehaviour
         Health = Health -1;
         if (Health == 0)
         {
+            Instantiate(efectoMuerte, point2.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Vacio")
+        {
+            Instantiate(efectoMuerte, point2.transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+    }
+
 }

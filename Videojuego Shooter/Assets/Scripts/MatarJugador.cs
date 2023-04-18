@@ -13,5 +13,7 @@ public class MatarJugador : MonoBehaviour
         {
             SceneManager.LoadScene(EscenaMorir);
         }
+
     }
+
 }

@@ -7,6 +7,8 @@ TagManager:
   - Escenario
   - Enemigo
   - Bullet
+  - Roboto
+  - Vacio
   layers:
   - Default
   - TransparentFX

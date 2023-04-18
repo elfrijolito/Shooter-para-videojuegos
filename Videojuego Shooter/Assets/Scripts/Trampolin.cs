@@ -26,6 +26,7 @@ public class Trampolin : MonoBehaviour
             anim.SetTrigger("entrada");
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+
     }
 
 }
