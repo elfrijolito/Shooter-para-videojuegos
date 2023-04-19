@@ -14,6 +14,11 @@ public class OsitoMove : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
 
+    public LayerMask capaDePiso;
+    public Transform sensorParaPiso;
+    private bool estaEnElPiso;
+    private float radioDelSensor = 0.07f;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -69,7 +74,24 @@ public class OsitoMove : MonoBehaviour
 
     private void FixedUpdate() 
     {
+        estaEnElPiso = Physics2D.OverlapCircle(sensorParaPiso.position, radioDelSensor, capaDePiso);
         Rigidbody2D.velocity = new Vector2(Horizontal * Speed, Rigidbody2D.velocity.y);
+    }
+
+    private void OnCollisionEnter2D(Collision2D plataforma)
+    {
+        if (plataforma.transform.tag == "Plataforma")
+        {
+            transform.parent = plataforma.transform;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D plataforma)
+    {
+        if (plataforma.transform.tag == "Plataforma")
+        {
+            transform.parent = null;
+        }
     }
 
 }

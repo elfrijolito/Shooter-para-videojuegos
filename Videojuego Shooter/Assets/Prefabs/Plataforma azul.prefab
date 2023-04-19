@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3883995866993320978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: punto 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,9 +41,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3883995867088569995}
   - component: {fileID: 3883995867088569992}
-  m_Layer: 0
+  - component: {fileID: 1619863609973713128}
+  m_Layer: 8
   m_Name: bloque azul
-  m_TagString: Untagged
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 3883995867088569993}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3883995868286478704}
@@ -115,6 +116,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1619863609973713128
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3883995867088569993}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.8909073, y: 2.54}
+    newSize: {x: 5.8909073, y: 2.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.8909073, y: 2.54}
+  m_EdgeRadius: 0
 --- !u!1 &3883995867650910206
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3883995867650910201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: punto 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,8 +183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3883995868286478704}
   - component: {fileID: 3883995868286478705}
-  - component: {fileID: 1269856981164717966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plataforma azul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,29 +227,3 @@ MonoBehaviour:
   - {fileID: 3883995866993320978}
   - {fileID: 3883995867650910201}
   puntoSeleccionado: 0
---- !u!61 &1269856981164717966
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3883995868286478710}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00026920438, y: 0.0002631843}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.17518157, y: 0.07534367}
-  m_EdgeRadius: 0
