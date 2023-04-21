@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class OsitoMove : MonoBehaviour
 {
@@ -19,10 +21,15 @@ public class OsitoMove : MonoBehaviour
     private bool estaEnElPiso;
     private float radioDelSensor = 0.07f;
 
+    public int vida = 5;
+    public TextMeshProUGUI vidatext;
+    public string nombreNivel;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
+        vidatext = GameObject.Find("Vidas").GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
@@ -92,6 +99,25 @@ public class OsitoMove : MonoBehaviour
         {
             transform.parent = null;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Bullet")
+            vida = vida - 1;
+        EscribirPuntos();
+
+        if(vida <=0)
+        {
+            Destroy(gameObject);
+            transform.parent = null;
+            SceneManager.LoadScene(nombreNivel);
+        }
+    }
+
+    void EscribirPuntos()
+    {
+        vidatext.text = "" + vida.ToString();
     }
 
 }
