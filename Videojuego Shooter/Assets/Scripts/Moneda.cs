@@ -11,19 +11,29 @@ public class Moneda : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cointext = GameObject.Find("Monedas").GetComponent<TextMeshProUGUI>();
+        PlayerPrefs.DeleteKey("puntuacion");
+        cointext = GameObject.Find("Monedas").GetComponent<TextMeshProUGUI>(); 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
-            puntos = puntos+ 1;
+        {
+            puntos = puntos + 1;
             EscribirPuntos();
             Destroy(gameObject);
+
+            if(puntos > PlayerPrefs.GetInt("puntuacion", 0))
+            {
+                PlayerPrefs.SetInt("puntuacion", puntos);
+            }
+        }
+            
+
     }
 
     void EscribirPuntos()
     {
-        cointext.text = "" + puntos.ToString();
+        cointext.text = "" + puntos.ToString(); 
     }
 }

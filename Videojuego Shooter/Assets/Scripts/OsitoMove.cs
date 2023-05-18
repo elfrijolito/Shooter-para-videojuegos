@@ -110,7 +110,6 @@ public class OsitoMove : MonoBehaviour
         if(vida <=0)
         {
             Destroy(gameObject);
-            transform.parent = null;
             SceneManager.LoadScene(nombreNivel);
         }
     }
